@@ -6,7 +6,7 @@ const RecipesFunction = ({ recipies }) => {
       {recipies.map((rec) => {
         return (
           <RecipeInfoFunction
-            key={rec.id}
+            key={rec.name}
             name={rec.name}
             time={rec.time}
             servings={rec.servings}
