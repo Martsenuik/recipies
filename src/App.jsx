@@ -1,7 +1,6 @@
-import RecipesFunction from "./componrnts/Recipes";
-import RecipeInfoFunction from "./componrnts/RecipeInfo";
+import RecipesFunction from "./components/Recipes";
+import RecipeInfoFunction from "./components/RecipeInfo";
 import recipies from "../recipies.json";
-import "./App.css";
 
 function App() {
   return <RecipesFunction recipies={recipies} />;
