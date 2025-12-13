@@ -1,5 +1,3 @@
-// import PropTypes from "prop-types";
-
 const RecipeInfoFunction = ({
   name,
   time,
@@ -20,21 +18,4 @@ const RecipeInfoFunction = ({
   );
 };
 
-// RecipeInfoFunction.propTypes = {
-//   name: PropTypes.string.isRequired,
-//   time: PropTypes.number.isRequired,
-//   servings: PropTypes.number.isRequired,
-//   calories: PropTypes.number.isRequired,
-//   difficulty: PropTypes.string.isRequired,
-//   image: PropTypes.string.isRequired,
-// };
-
-// RecipeInfoFunction.defaultProps = {
-//   name: "No name",
-//   time: 0,
-//   servings: 1,
-//   calories: 0,
-//   difficulty: "unknown",
-//   image: "",
-// };
 export default RecipeInfoFunction;
