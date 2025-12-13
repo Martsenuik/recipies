@@ -1,12 +1,10 @@
-
 import { defineConfig } from 'vite';
 import react from '@vitejs/plugin-react';
 
 
-const repoName = 'recipies';
+const BASE_PATH = '/recipies/'; 
 
 export default defineConfig({
   plugins: [react()],
-
-  base: `/${recipies}/`,
+  base: BASE_PATH, 
 });
